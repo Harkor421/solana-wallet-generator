@@ -2,7 +2,6 @@ const fs = require('fs');
 const bs58 = require('bs58');
 const path = require('path');
 const solanaWeb3 =  require("@solana/web3.js");
-const Solana = new solanaWeb3.Connection("https://ssc-dao.genesysgo.net/");
 
 
 const inputDirectory = "./output_2"; // input directory WITHOUT "/" at the end

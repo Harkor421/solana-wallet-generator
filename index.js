@@ -1,10 +1,9 @@
 const fs = require('fs');
 const bs58 = require('bs58');
 const solanaWeb3 = require('@solana/web3.js');
-const Solana = new solanaWeb3.Connection("https://ssc-dao.genesysgo.net/");
 
 // IF YOU ARE A NOOB JUST EDIT THIS PART
-const stopAfter = 100; // setting this to 0 deactivates the limit
+const stopAfter = 20; // setting this to 0 deactivates the limit
 const outputFile = "./output/solana_keys.txt"; // output file
 
 // FUNCTION PART
